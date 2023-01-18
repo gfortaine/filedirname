@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
-    "allowJs": true,
+    "rootDir": ".",
+    // "allowJs": true,
     "esModuleInterop": true,
     "isolatedModules": true,
     "maxNodeModuleJsDepth": 5,
-    "moduleResolution": "Node",
+    "moduleResolution": "nodenext",
     "strict": true,
     "target": "ES2019",
     "module": "ESNext"
   },
-  "include": ["source"]
+  "include": ["bug"]
 }
